@@ -35,7 +35,8 @@ def create_app(config_name):
             r"/*": {
                 "origins": [
                     "http://localhost:5173", 
-                    "http://127.0.0.1:5173"
+                    "http://127.0.0.1:5173",
+                    "https://qalm-frontend.onrender.com"
                 ]
             }
         },
