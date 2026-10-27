@@ -1,0 +1,23 @@
+cat > .gitignore <<'EOF'
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local instance files
+instance/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Database migrations
+migrations/
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+EOF
